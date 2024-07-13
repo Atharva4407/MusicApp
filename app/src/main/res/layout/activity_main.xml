@@ -1,0 +1,113 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/loading_background_color">
+
+    <!-- Inside your existing LinearLayout or RelativeLayout -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/button_text_color"
+        android:background="@color/button_background"
+        android:layout_gravity="right"
+        android:layout_marginBottom="85dp"
+        />
+
+    <!-- Inside your existing LinearLayout or RelativeLayout -->
+
+
+
+    <!-- Inside your existing LinearLayout or RelativeLayout -->
+
+
+
+    <TextView
+        android:id="@+id/songTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Playing song 1"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/songImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/common_song_image" />
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:progressBackgroundTint="@color/seekbar"
+        />
+    <!-- res/layout/activity_main.xml -->
+    <!-- Inside your existing LinearLayout or RelativeLayout -->
+
+
+    <Spinner
+        android:id="@+id/playbackSpeedSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:spinnerMode="dropdown" />
+
+    <!-- Inside your existing LinearLayout or RelativeLayout -->
+
+
+    <Button
+        android:id="@+id/shuffleButton"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@color/button_background"
+        android:text="Shuffle"
+
+        android:textColor="@color/button_text_color" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/prevButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prev"
+            android:textColor="@color/button_text_color"
+            android:background="@color/button_background" />
+
+        <Button
+            android:id="@+id/playPauseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@color/button_text_color"
+            android:background="@color/button_background" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textColor="@color/button_text_color"
+            android:background="@color/button_background" />
+    </LinearLayout>
+</LinearLayout>

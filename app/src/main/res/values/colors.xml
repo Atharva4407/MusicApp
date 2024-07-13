@@ -1,0 +1,10 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="loading_background_color">#003366</color>
+    <color name="app_background">#003366</color>
+    <color name="button_text_color">#FF000000</color> <!-- Black text color for buttons -->
+    <color name="button_background">#8b9dc3</color> <!-- Light Blue for normal state -->
+
+    <color name="seekbar">#ADD8E6</color>
+</resources>
